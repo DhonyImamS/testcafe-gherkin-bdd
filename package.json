@@ -1,0 +1,18 @@
+{
+  "name": "gherkin-testcafe-bdd",
+  "version": "1.0.0",
+  "description": "Learning Gherkin Testcafe in BDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe test"
+  },
+  "author": "DhonyImamSaputra",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^7.0.0-rc.0",
+    "gherkin-testcafe": "^2.5.2",
+    "testcafe": "^1.9.4",
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-list": "^2.1.0"
+  }
+}
