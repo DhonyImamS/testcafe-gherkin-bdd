@@ -7,6 +7,7 @@ Given(/^User has navigated into Web Testcafe$/, async (t) => {
 
 When(/^User fill "([^"]*)" on field YourName$/, async (t, [UserName]) => {
     await page.typingName(UserName);
+    t.ctx.userName = UserName;
 });
 
 When(/^User click button submit$/, async (t) => {
