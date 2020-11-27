@@ -1,6 +1,6 @@
 import { Selector, t } from 'testcafe';
 
-class Page {
+class ThankYouPage {
     constructor () {
         this.header = Selector('#article-header');
     }
@@ -10,4 +10,4 @@ class Page {
     }
 }
 
-export default new Page();
+export default new ThankYouPage();

@@ -1,6 +1,6 @@
 import { Selector, t } from 'testcafe';
 
-class Page {
+class ExamplePage {
     constructor () {
         this.nameInput = Selector('#developer-name');
         this.submitButton = Selector('#submit-button');
@@ -18,4 +18,4 @@ class Page {
     }
 }
 
-export default new Page();
+export default new ExamplePage();
