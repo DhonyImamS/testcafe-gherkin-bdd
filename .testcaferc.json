@@ -12,5 +12,6 @@
             "name": "html",
             "output": "reports/testcafe_report.html"
         }
-    ]
+    ],
+    "tags" : "@bulkScenario"
 }
