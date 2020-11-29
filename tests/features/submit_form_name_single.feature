@@ -1,5 +1,5 @@
 Feature: Submit Form on Testcafe Example
-
+@all
 Scenario: As a User, I want to be able to submit form on Web Example Testcafe
     Given User has navigated into Web Testcafe
     When User fill "DHONY" on field YourName

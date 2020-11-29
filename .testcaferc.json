@@ -1,5 +1,5 @@
 {
-    "browsers": "firefox-headless",
+    "browsers": "firefox:headless",
     "src": [
         "tests/step_definitions/**/*.js",
         "tests/features/**/*.feature",

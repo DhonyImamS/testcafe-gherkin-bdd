@@ -1,6 +1,6 @@
 Feature: Submit Bulk Name at Form Testcafe Example
 
-@bulkScenario
+@all @bulkScenario
 Scenario Outline: As a User, I want to be able to submit Bulk Name on Web Example Testcafe
     Given User has navigated into Web Testcafe
     When User fill "<UserName>" on field YourName
