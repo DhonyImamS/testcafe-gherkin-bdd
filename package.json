@@ -4,7 +4,7 @@
   "description": "Learning Gherkin Testcafe in BDD",
   "main": "index.js",
   "scripts": {
-    "test-cucumber": "node_modules/.bin/gherkin-testcafe",
+    "test-cucumber": "node_modules/.bin/gherkin-testcafe --reporter spec,xunit:reports/ui_automation_reporter.xml",
     "test": "testcafe test"
   },
   "author": "DhonyImamSaputra",
@@ -15,5 +15,8 @@
     "testcafe": "^1.9.4",
     "testcafe-reporter-html": "^1.4.6",
     "testcafe-reporter-list": "^2.1.0"
+  },
+  "dependencies": {
+    "testcafe-reporter-xunit": "^2.2.1"
   }
 }
