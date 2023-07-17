@@ -1,4 +1,4 @@
-import { Given, When, Then } from 'cucumber';
+import { Given, When, Then } from '@cucumber/cucumber';
 import ExamplePage from '../../page/page_example';
 
 Given(/^User has navigated into Web Testcafe$/, async (t) => {
