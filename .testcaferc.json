@@ -18,6 +18,5 @@
             "output": "reports/ui_automation_reporter.xml"
         }
     
-    ],
-    "tags" : "@bulkScenario"
+    ]
 }
